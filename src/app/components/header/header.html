@@ -1,0 +1,17 @@
+<header>
+  <nav class="nav-container" id="navbar" [class.scrolled]="isScrolled">
+    <div class="nav-content">
+      <a href="#home" class="logo">&lt;Lucas Machado/&gt;</a>
+      <button class="menu-toggle" (click)="toggleMenu()">
+        {{ isMenuOpen ? '✕' : '☰' }}
+      </button>
+      <ul class="nav-menu" id="navMenu" [class.active]="isMenuOpen">
+        <li><a href="#home" (click)="closeMenu()">Home</a></li>
+        <li><a href="#about" (click)="closeMenu()">About me</a></li>
+        <li><a href="#projects" (click)="closeMenu()">Projects</a></li>
+        <!--<li><a href="#services" (click)="closeMenu()">Services</a></li>-->
+        <!--<li><a href="#skills" (click)="closeMenu()">Skills</a></li>-->
+      </ul>
+    </div>
+  </nav>
+</header>
