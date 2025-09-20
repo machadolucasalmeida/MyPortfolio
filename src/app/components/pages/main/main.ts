@@ -20,8 +20,8 @@ export class Main {
     const linkedInUrl = 'https://www.linkedin.com/in/machado-lucasalmeida/';
     window.open(linkedInUrl, '_blank');
   }
-  projectLinks: string[] = ['https://google.com', 'https://youtube.com', 'https://facebook.com', 'https://instagram.com'];
-  repositorytLinks: string[] = ['https://github.com', 'https://github.com', 'https://github.com', 'https://github.com'];
+  projectLinks: string[] = ['https://memory-game-inky-eight.vercel.app/', 'https://youtube.com', 'https://facebook.com', 'https://instagram.com'];
+  repositorytLinks: string[] = ['https://github.com/machadolucasalmeida/memoryGame', 'https://github.com', 'https://github.com', 'https://github.com'];
 
   accessProject(indice: number) {
     const linkProject = this.projectLinks[indice];
